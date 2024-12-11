@@ -1,0 +1,118 @@
+body{
+    margin: 0; /* Remove as margens padrão */
+    display: flex; /* Define o body como um contêiner flexível */
+    justify-content: space-evenly; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    height: 100vh; /* Define a altura do body igual à altura da janela */
+    background-color: #f0f0f0;
+}
+
+.button{
+    color: white;
+    background-color: #1E9E6A;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+.button-gmail{
+background-color: black;
+color: white;
+display: flex;
+align-items: center;
+font-size: 16px;
+
+}
+
+.gmail-button {
+            display: flex;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
+        }
+
+        .gmail-button:hover {
+            background-color: #333;
+        }
+
+        .gmail-button img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+    .highlight{
+color: #1E9E6A;
+
+    }
+
+    .digite-email{
+        display: flex;
+        align-items: center;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        font-family: Arial, sans-serif;
+        transition: background-color 0.3s;
+
+    }
+
+    .digite-senha{
+
+            display: flex;
+            align-items: center;
+            background-color: #000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.3s;
+    }
+
+    /* Estilos para tablets (largura entre 768px e 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+      background-color: red; /* Exemplo de mudança de cor */
+      font-size: 18px; /* Ajuste no tamanho da fonte */
+      padding: 15px;
+    }
+    .section-img{
+        display: none;
+    }
+  }
+  
+  /* Estilos para dispositivos móveis (largura de até 767px) */
+  @media (max-width: 767px) {
+    body {
+      background-color: blue; /* Exemplo de mudança de cor */
+      font-size: 16px; /* Ajuste no tamanho da fonte */
+      padding: 10px;
+    
+    } 
+    .section-img{
+
+        display: none;
+    }
+  }
+
+  
